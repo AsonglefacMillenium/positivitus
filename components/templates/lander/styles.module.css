@@ -1,0 +1,35 @@
+.lander_wrapper{
+    width: 100%;
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.lander_content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lander_left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.lander_left h1{
+    font-size: 7rem;
+    margin: 0;
+
+}
+.lander_left p{
+    font-size: 2rem;
+}
+
+.lander_partners{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
