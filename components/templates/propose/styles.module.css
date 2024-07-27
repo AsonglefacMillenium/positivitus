@@ -1,0 +1,29 @@
+.propose_wrapper {
+  width: 95%;
+  background-color: #d9d9d9;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 3rem;
+  border-radius: 4rem;
+}
+
+.propose_left {
+  width: 30%;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding-left: 2rem;
+}
+
+.propose_left h3 {
+  font-size: 3rem;
+  color: #000;
+  margin: 0;
+}
+
+.propose_left p {
+  font-size: 1.8rem;
+  color: #000;
+  margin: 0;
+}

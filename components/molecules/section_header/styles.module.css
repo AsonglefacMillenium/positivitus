@@ -1,0 +1,25 @@
+.section_head_wrap{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section_head{
+    background-color: #B9FF66;
+    height: fit-content;
+    padding: 0rem 1rem;
+    font-size: 4rem;
+    color: #000;
+    border-radius: 0.7rem;
+}
+
+.section_head h3{
+    margin: 0;
+}
+
+.section_text{
+    width: 70%;
+    font-size: 1.8rem;
+    color: #000;
+}

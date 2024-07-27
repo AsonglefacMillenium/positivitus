@@ -1,0 +1,41 @@
+.card_wrapper{
+    width: 42%;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+    border-radius: 4rem;
+    align-items: center;
+    box-shadow: 5 5 5  #191A23;
+    border: 1px solid #000;
+    
+}
+
+.card_left{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    width: 45%;
+}
+
+.card_left p{
+    font-size: 3rem;
+    margin: 0;
+    width: fit-content;
+    font-weight: 500;
+}
+
+.card_left a {
+    display: flex;
+    text-decoration: none;
+    font-size: 2rem;
+    gap: 16px;
+    align-items: center;
+}
+
+.card_left a p{
+    font-size: 2rem;
+}
+
+.icon{
+    font-size: 3rem;
+}

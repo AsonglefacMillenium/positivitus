@@ -23,16 +23,12 @@ const Lander = () => {
         <div className={styles.lander_right}>
           <img src="/land_img.png" />
         </div>
-
-
       </div>
 
       <div className={styles.lander_partners}>
-{
-    partnerData.map((data) => (
-        <img key={data.id} src={data.item}/>
-    ))
-}
+        {partnerData.map((data) => (
+          <img key={data.id} src={data.item} />
+        ))}
       </div>
     </div>
   );
