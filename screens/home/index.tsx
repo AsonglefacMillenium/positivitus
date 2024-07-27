@@ -3,6 +3,7 @@ import styles from "./styles.module.css";
 import Lander from "@/components/templates/lander";
 import Services from "@/components/templates/service";
 import ProposeSection from "@/components/templates/propose";
+import StudiesSection from "@/components/templates/studies";
 
 const HomeScreen = () => {
   return (
@@ -11,6 +12,7 @@ const HomeScreen = () => {
         <Lander />
         <Services />
         <ProposeSection />
+        <StudiesSection />
       </div>
     </div>
   );

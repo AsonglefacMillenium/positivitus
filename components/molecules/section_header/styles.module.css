@@ -1,7 +1,7 @@
 .section_head_wrap{
-    width: 70%;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    gap: 48px;
     align-items: center;
 }
 
@@ -12,6 +12,7 @@
     font-size: 4rem;
     color: #000;
     border-radius: 0.7rem;
+    width: fit-content;
 }
 
 .section_head h3{
@@ -19,7 +20,7 @@
 }
 
 .section_text{
-    width: 70%;
+    width: 50%;
     font-size: 1.8rem;
     color: #000;
 }
