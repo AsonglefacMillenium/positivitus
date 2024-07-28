@@ -1,0 +1,52 @@
+.process_card_wrapper {
+  width: 92%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background-color: #b9ff66;
+  padding: 4rem;
+  border-radius: 3rem;
+  border: 1px solid #000;
+}
+
+.card_header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card_text {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.card_text h3 {
+  font-size: 6rem;
+  margin: 0;
+  color: #000;
+  font-weight: 500;
+}
+
+.card_text p {
+  font-size: 3rem;
+  margin: 0;
+  color: #000;
+  font-weight: 500;
+}
+
+.action_btn {
+  width: 5rem;
+  height: 5rem;
+  background-color: #f3f3f3;
+  color: #000;
+  font-size: 5rem;
+  font-weight: 700;
+  
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}

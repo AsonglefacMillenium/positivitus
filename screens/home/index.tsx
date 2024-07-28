@@ -4,6 +4,7 @@ import Lander from "@/components/templates/lander";
 import Services from "@/components/templates/service";
 import ProposeSection from "@/components/templates/propose";
 import StudiesSection from "@/components/templates/studies";
+import ProcessSection from "@/components/templates/process";
 
 const HomeScreen = () => {
   return (
@@ -13,6 +14,7 @@ const HomeScreen = () => {
         <Services />
         <ProposeSection />
         <StudiesSection />
+        <ProcessSection />
       </div>
     </div>
   );
