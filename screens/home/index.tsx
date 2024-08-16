@@ -5,6 +5,7 @@ import Services from "@/components/templates/service";
 import ProposeSection from "@/components/templates/propose";
 import StudiesSection from "@/components/templates/studies";
 import ProcessSection from "@/components/templates/process";
+import TeamSection from "@/components/templates/team";
 
 const HomeScreen = () => {
   return (
@@ -15,6 +16,7 @@ const HomeScreen = () => {
         <ProposeSection />
         <StudiesSection />
         <ProcessSection />
+        <TeamSection />
       </div>
     </div>
   );

@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import styles from "./styles.module.css";
 import SectionHeader from "@/components/molecules/section_header";
@@ -12,13 +13,12 @@ const ProcessSection = () => {
       />
 
       <div className={styles.process_cards}>
-<ProcessCard />
-<ProcessCard />
-<ProcessCard />
-<ProcessCard />
-<ProcessCard />
-<ProcessCard />
-
+        <ProcessCard />
+        <ProcessCard />
+        <ProcessCard />
+        <ProcessCard />
+        <ProcessCard />
+        <ProcessCard />
       </div>
     </div>
   );
