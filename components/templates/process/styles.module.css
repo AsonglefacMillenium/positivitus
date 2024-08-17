@@ -4,3 +4,7 @@
     flex-direction: column;
     gap: 32px;
 }
+
+.process_cards{
+    width: 100%;
+}
