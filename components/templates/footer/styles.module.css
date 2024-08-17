@@ -1,0 +1,25 @@
+.nav_links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    
+}
+
+.nav_links a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+}
+
+.footer_wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_container{
+    width: 100%;
+    background-color: #000;
+    border-radius: 2rem 2rem 0 0;
+}
