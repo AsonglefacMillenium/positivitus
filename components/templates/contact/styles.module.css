@@ -18,6 +18,7 @@
 
 .form_wrapper{
     width: 40%;
+    margin-right: 200px;
 }
 
 .form_wrapper form{
@@ -50,7 +51,6 @@
 
 .image{
     width: 50%;
-    margin-right: -200px;
 }
 
 .image img{

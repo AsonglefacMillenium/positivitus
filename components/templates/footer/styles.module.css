@@ -1,25 +1,132 @@
-.nav_links{
+.nav_links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.nav_links a {
+  text-decoration: underline;
+  font-size: 20px;
+  color: #fff;
+}
+
+.footer_wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.footer_container {
+  width: 100%;
+  background-color: #000;
+  border-radius: 3rem 3rem 0 0;
+  padding: 5.5rem 6rem 5rem 6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.footer_nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.foot_social {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: #fff;
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.footer_info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info_left {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.info_head {
+  background-color: #b9ff66;
+  width: fit-content;
+}
+
+.info_head h4 {
+  margin: 0;
+  padding: 0;
+  font-size: 2rem;
+}
+
+.info_content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #fff;
+  font-size: 1.8rem;
+}
+
+.info_content p {
+  margin: 0;
+}
+
+.info_right{
+    width: 60%;
+    background-color: #292A32;
+    padding: 5rem 4rem;
     display: flex;
-    justify-content: center;
     align-items: center;
-    gap: 32px;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 2rem;
     
 }
 
-.nav_links a{
-    text-decoration: none;
-    font-size: 20px;
+.info_right input{
+    width: 40%;
+    padding: 2.2rem 3.5rem;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 1rem;
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+.info_right button{
+    width: 45%;
+    padding: 2.2rem 3.5rem;
+    background-color: #b9ff66;
+    border-radius: 1rem;
+    cursor: pointer;
     color: #000;
+    font-size: 2rem;
 }
 
-.footer_wrapper{
+.divider{
     width: 100%;
+    height: 1px;
+    background-color: #fff;
+  }
+
+  .copyright{
     display: flex;
-    justify-content: center;
-}
+    gap: 32px;
+    color: #fff;
+    align-items: center;
+    font-size: 1.8rem;
+  }
 
-.footer_container{
-    width: 100%;
-    background-color: #000;
-    border-radius: 2rem 2rem 0 0;
-}
+  .copyright a {
+    font-size: 1.8rem;
+    color: #fff;
+  }
