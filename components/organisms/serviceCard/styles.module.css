@@ -39,3 +39,18 @@
 .icon{
     font-size: 3rem;
 }
+
+@media only screen and (max-width:980px) {
+    .card_wrapper{
+        width: 100%;
+        padding: 4rem;
+    }
+
+    .card_right{
+        width: 40%;
+    }
+
+    .card_right img{
+        width: 100%;
+    }
+}

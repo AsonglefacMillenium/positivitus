@@ -49,6 +49,12 @@ const FooterSection = () => {
           </div>
         </div>
 
+        <div className={styles.foot_social_mobile}>
+            <TiSocialLinkedinCircular />
+            <IoLogoFacebook />
+            <AiFillTwitterCircle />
+          </div>
+
         <div className={styles.divider}></div>
 
         <div className={styles.copyright}>

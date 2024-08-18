@@ -24,3 +24,22 @@
     font-size: 1.8rem;
     color: #000;
 }
+
+@media only screen and (max-width: 1024px) {
+    .section_head_wrap{
+        flex-direction: column;
+        gap: 16px;
+        align-items: center;
+
+    }
+
+    .section_head{
+        
+        text-align: center;
+    }
+
+    .section_text{
+        width: 60%;
+        text-align: center;
+    }
+}

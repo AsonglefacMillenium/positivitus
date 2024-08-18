@@ -3,7 +3,7 @@
 }
 
 .home_wrapper{
-    width: 90%;
+    width: 100%;
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -13,3 +13,10 @@
     margin: 0 auto;
    
 }
+
+@media only screen and (max-width: 1024px) {
+    .home{
+        width: 100vw;
+    }
+}
+

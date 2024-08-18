@@ -1,5 +1,5 @@
 .lander_wrapper{
-    width: 100%;
+    width: 90%;
     padding: 3rem 0;
     display: flex;
     flex-direction: column;
@@ -20,8 +20,9 @@
 }
 
 .lander_left h1{
-    font-size: 7rem;
+    font-size: 8rem;
     margin: 0;
+    padding: 0;
 
 }
 .lander_left p{
@@ -32,4 +33,54 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.lander_content_mobile{
+    display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+    .lander_wrapper{
+        width: 90%;
+        
+    }
+    .lander_content_mobile{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .lander_content{
+        display: none;
+
+    }
+
+    .lander_left{
+        width: 100%;
+    }
+
+    .lander_right{
+        width: 100%;
+    }
+
+    .lander_right img{
+        width: 100%;
+    }
+
+    .lander_content_text{
+        width: 100%;
+    }
+    .lander_content_text button{
+        width: 100% !important;
+    }
+    .lander_partners{
+        gap: 32px;
+        justify-content: flex-start;
+    }
+
+    .lander_left h1{
+        font-size: 7rem;
+    }
+    
 }

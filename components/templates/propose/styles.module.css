@@ -1,5 +1,5 @@
 .propose_wrapper {
-  width: 95%;
+  width: 87%;
   background-color: #d9d9d9;
   display: flex;
   justify-content: space-between;
@@ -27,3 +27,20 @@
   color: #000;
   margin: 0;
 }
+
+@media only screen and (max-width: 1024px) {
+  .propose_wrapper{
+    width: 90%;
+    padding: 3rem 1rem;
+  }
+
+  .propose_left{
+    width: 100%;
+    padding: 0;
+  }
+
+  .propose_right{
+    display: none;
+  }
+}
+

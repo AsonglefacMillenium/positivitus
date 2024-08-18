@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import styles from "./styles.module.css";
 import Header from "@/components/organisms/header";
@@ -22,6 +23,27 @@ const Lander = () => {
 
         <div className={styles.lander_right}>
           <img src="/land_img.png" />
+        </div>
+      </div>
+
+      
+
+      <div className={styles.lander_content_mobile}>
+        <div className={styles.lander_left}>
+          <h1>Navigating the digital landscape for success</h1>
+        </div>
+
+        <div className={styles.lander_right}>
+          <img src="/land_img.png" />
+        </div>
+
+        <div className={styles.lander_content_text}>
+          <p>
+            Our digital marketing agency helps businesses grow and succeed
+            online through a range of services including SEO, PPC, social media
+            marketing, and content creation.
+          </p>
+          <Button text="Book a consultation" color="#fff" bgColor="#000" />
         </div>
       </div>
 
