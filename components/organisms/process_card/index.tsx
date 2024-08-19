@@ -1,7 +1,13 @@
 import React, { useState } from "react";
 import styles from "./styles.module.css";
 
-const ProcessCard = () => {
+
+interface ProcessCardProps{
+  title: string;
+  text: string;
+  number: string
+}
+const ProcessCard = ({...props}:ProcessCardProps) => {
   const [details, setDetails] = useState(false);
   return (
     <div
@@ -13,8 +19,8 @@ const ProcessCard = () => {
     >
       <div className={styles.card_header}>
         <div className={styles.card_text}>
-          <h3>01</h3>
-          <p>Consulting</p>
+          <h3>{props.number}</h3>
+          <p>{props.title}</p>
         </div>
 
         <div className={styles.action_btn}>{details ? <p>-</p> : <p>+</p>}</div>
@@ -25,10 +31,7 @@ const ProcessCard = () => {
           <div className={styles.divider}></div>
           <div className={styles.card_body}>
             <p>
-              During the initial consultation, we will discuss your business
-              goals and objectives, target audience, and current marketing
-              efforts. This will allow us to understand your needs and tailor
-              our services to best fit your requirements.
+              {props.text}
             </p>
           </div>
         </div>
